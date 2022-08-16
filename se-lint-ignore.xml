@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="colophon.xhtml">
+		<ignore>
+			<code>m-037</code>
+			<reason>Transcription is only available as archive.org Wayback Machine link</reason>
+		</ignore>
+	</file>
+	<file path="imprint.xhtml">
+		<ignore>
+			<code>m-037</code>
+			<reason>Transcription is only available as archive.org Wayback Machine link</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
