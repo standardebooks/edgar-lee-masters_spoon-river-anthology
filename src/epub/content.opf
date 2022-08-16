@@ -28,43 +28,41 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Spoon River Anthology</dc:title>
 		<meta property="file-as" refines="#title">Spoon River Anthology</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<dc:subject id="subject-1">American poetry</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
-		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="term" refines="#subject-1">sh85004382</meta>
+		<meta property="se:subject">Fiction</meta>
+		<meta property="se:subject">Poetry</meta>
+		<dc:description id="description">The stories of small town residents’ lives and deaths are told through this collection of short poems.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			<p><i>Spoon River Anthology</i> is a collection of short poems that reveals the true nature of the citizens of a fictional small town in Illinois. Each poem is a candid autobiography of a now deceased resident that lies in the Oak Hill Cemetery, and often exposes their darkest secrets.</p>
+			<p><a href="https://standardebooks.org/ebooks/edgar-lee-masters">Edgar Lee Masters</a> was raised in Lewistown, Illinois and based these stories on the gossip he heard there. The book was a commercial success but was banned from schools and libraries in the area due to the real life citizens knowing exactly whom each poem was written about. As the years have passed and more generations lie in Oak Hill Cemetery, Lewistown has forgiven Masters and he is now celebrated there.</p>
+			<p>The poems were originally published in the literary magazine <i>Reedy's Mirror</i> under the pseudonymn Webster Ford. The first edition in book form was published in 1915 and contained 209 poems. Masters added 35 new poems including the epilogue for the 1916 edition. This Standard Ebooks edition is based on the expanded 1916 edition.</p>			
 		</meta>
-		<dc:language>LANG</dc:language>
-		<dc:source>PG_URL</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:language>en-US</dc:language>
+		<dc:source>https://web.archive.org/web/20080723131115/http://spoonriveranthology.net/spoon/river/originalOrder/</dc:source>
+		<dc:source>https://archive.org/details/spoonriveranthol021mast</dc:source>
+		<meta property="se:production-notes">The sequencing of poems in this production follows the order shown in the page scans, not the transcription.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Spoon_River_Anthology</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/edgar-lee-masters_spoon-river-anthology</meta>
 		<dc:creator id="author">Edgar Lee Masters</dc:creator>
 		<meta property="file-as" refines="#author">Masters, Edgar Lee</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Edgar_Lee_Masters</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50044141</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Caspar David Friedrich</dc:contributor>
+		<meta property="file-as" refines="#artist">Friedrich, Caspar David</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Caspar_David_Friedrich</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79059754</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">An Anonymous Volunteer</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Volunteer, An Anonymous</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Brad Taylor</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Taylor, Brad</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://github.com/btaylor8/</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
