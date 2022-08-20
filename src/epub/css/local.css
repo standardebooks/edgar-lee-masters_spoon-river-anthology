@@ -128,11 +128,13 @@ tr.together td + td{
 /* End dialogue */
 
 /* All dedications */
-section[epub|type~="dedication"]{
+section[epub|type~="dedication"],
+section[epub|type~="acknowledgments"]{
 	text-align: center;
 }
 
-section[epub|type~="dedication"] > *{
+section[epub|type~="dedication"] > *,
+section[epub|type~="acknowledgments"] > *{
 	display: inline-block;
 	margin: auto;
 	margin-top: 3em;
@@ -140,7 +142,8 @@ section[epub|type~="dedication"] > *{
 }
 
 @supports(display: flex){
-	section[epub|type~="dedication"]{
+	section[epub|type~="dedication"],
+	section[epub|type~="acknowledgments"]{
 		align-items: center;
 		box-sizing: border-box;
 		display: flex;
@@ -150,7 +153,8 @@ section[epub|type~="dedication"] > *{
 		padding-top: 3em;
 	}
 
-	section[epub|type~="dedication"] > *{
+	section[epub|type~="dedication"] > *,
+	section[epub|type~="acknowledgments"] > *{
 		margin: 0;
 	}
 }
