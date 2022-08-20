@@ -27,7 +27,7 @@ section{
 }
 
 [epub|type~="z3998:poem"] p.right span:first-child{
-	text-align: right;
+	padding-left: 6em;
 }
 /* End poetry */
 
