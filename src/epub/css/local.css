@@ -90,6 +90,10 @@ i [epub|type~="z3998:persona"]{
 }
 /* End play */
 
+[epub|type~="epigraph"] p{
+	font-style: italic;
+}
+
 /* Verse */
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
