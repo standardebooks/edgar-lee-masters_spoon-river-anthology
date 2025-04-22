@@ -32,6 +32,7 @@
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85004382</meta>
 		<meta property="se:subject">Poetry</meta>
+		<meta property="se:is-a-collection">true</meta>
 		<dc:description id="description">A collection of short poems recounting the lives and deaths of the residents of a small Illinois town.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;Spoon River Anthology&lt;/i&gt; is a collection of short poems that reveals the true nature of the citizens of a fictional small town in Illinois. Each poem is a candid autobiography of a now-deceased resident that lies in the Oak Hill Cemetery—often exposing their darkest secrets.&lt;/p&gt;
