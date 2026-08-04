@@ -35,7 +35,7 @@
 		<meta property="term" refines="#subject-1">sh85004382</meta>
 		<meta property="schema:genre">Poetry</meta>
 		<meta property="schema:additionalType">http://schema.org/Collection</meta>
-		<dc:abstract>A collection of short poems recounting the lives and deaths of the residents of a small Illinois town.</dc:abstract>
+		<meta property="schema:abstract">A collection of short poems recounting the lives and deaths of the residents of a small Illinois town.</meta>
 		<dc:description>
 			&lt;p&gt;&lt;i&gt;Spoon River Anthology&lt;/i&gt; is a collection of short poems that reveals the true nature of the citizens of a fictional small town in Illinois. Each poem is a candid autobiography of a now-deceased resident that lies in the Oak Hill Cemetery—often exposing their darkest secrets.&lt;/p&gt;
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/edgar-lee-masters"&gt;Edgar Lee Masters&lt;/a&gt; was raised in Lewistown, Illinois and based these stories on the gossip he heard there. The book was a commercial success, but was banned from schools and libraries in the area due to the real-life citizens knowing exactly whom each poem was written about. As the years have passed and more generations now lie in Oak Hill Cemetery, Lewistown has forgiven Masters, and he’s now celebrated there.&lt;/p&gt;
